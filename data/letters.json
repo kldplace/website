@@ -1,0 +1,119 @@
+{
+  "name": {
+    "ar": "ساره",
+    "en": "Sara"
+  },
+  "credit_ar": "صور الأقمار الصناعية لاندسات — ملك عام، بإذن من ناسا/هيئة المسح الجغرافي الأمريكية",
+  "credit_en": "Landsat satellite imagery — public domain, courtesy of NASA/USGS",
+  "variant_sets": [
+    { "id": "saudi", "label_ar": "من السعودية", "icon": "🇸🇦" },
+    { "id": "world", "label_ar": "حول العالم", "icon": "🌍" }
+  ],
+  "letters": [
+    {
+      "id": "seen",
+      "char": "س",
+      "variants": [
+        {
+          "image": "images/seen.jpg",
+          "location_ar": "وادي ذي عين (الديسة)، منطقة تبوك، السعودية",
+          "coordinates": "27.63°N, 36.55°E",
+          "lat": 27.6311,
+          "lon": 36.5494,
+          "zoom_span_deg": 0.05,
+          "note_ar": "ملتقى ثلاثة أودية جبلية في نقطة واحدة — تقارب موثّق لأسنان حرف السين",
+          "map_url": "https://www.google.com/maps?q=27.6311,36.5494"
+        },
+        {
+          "image": "images/seen-2.jpg",
+          "location_ar": "دلتا المسيسيبي المتفرعة (مصب النهر)، لويزيانا، الولايات المتحدة",
+          "coordinates": "29.15°N, 89.25°W",
+          "lat": 29.15,
+          "lon": -89.25,
+          "zoom_span_deg": 0.065,
+          "flip_vertical": true,
+          "note_ar": "تفرّع النهر إلى عدة قنوات عند مصبه يُقارب أسنان حرف السين",
+          "map_url": "https://www.google.com/maps?q=29.15,-89.25"
+        }
+      ]
+    },
+    {
+      "id": "alef",
+      "char": "ا",
+      "variants": [
+        {
+          "image": "images/alef.jpg",
+          "location_ar": "موقع قرب ضباء، منطقة تبوك، السعودية",
+          "coordinates": "27.3321°N, 35.7192°E",
+          "lat": 27.3320805,
+          "lon": 35.7191649,
+          "zoom_span_deg": 0.004,
+          "note_ar": "موقع قرب ضباء اختير خصيصًا ليُمثّل الخط المستقيم لحرف الألف",
+          "map_url": "https://www.google.com/maps?q=27.3320805,35.7191649"
+        },
+        {
+          "image": "images/alef-2.jpg",
+          "location_ar": "امتداد مستقيم لقناة السويس عند القنطرة، مصر",
+          "coordinates": "30.83°N, 32.32°E",
+          "lat": 30.828,
+          "lon": 32.318,
+          "zoom_span_deg": 0.04,
+          "note_ar": "امتداد مستقيم تمامًا لقناة السويس يُشبه الخط الرأسي لحرف الألف",
+          "map_url": "https://www.google.com/maps?q=30.828,32.318"
+        }
+      ]
+    },
+    {
+      "id": "ra",
+      "char": "ر",
+      "variants": [
+        {
+          "image": "images/ra.jpg",
+          "location_ar": "موقع قرب ضباء، منطقة تبوك، السعودية",
+          "coordinates": "27.3378°N, 35.7061°E",
+          "lat": 27.3377796,
+          "lon": 35.7061381,
+          "zoom_span_deg": 0.004,
+          "note_ar": "موقع قرب ضباء اختير خصيصًا ليُمثّل انحناءة حرف الراء المتجهة للأسفل",
+          "map_url": "https://www.google.com/maps?q=27.3377796,35.7061381"
+        },
+        {
+          "image": "images/ra-2.jpg",
+          "location_ar": "انحناء هورسشو (Horseshoe Bend) لنهر كولورادو، أريزونا، الولايات المتحدة",
+          "coordinates": "36.88°N, 111.51°W",
+          "lat": 36.8792,
+          "lon": -111.5100,
+          "zoom_span_deg": 0.05,
+          "note_ar": "انحناء نهري حاد وعميق يُشبه انحناءة حرف الراء",
+          "map_url": "https://www.google.com/maps?q=36.8792,-111.5100"
+        }
+      ]
+    },
+    {
+      "id": "ha",
+      "char": "ه",
+      "variants": [
+        {
+          "image": "images/ha.jpg",
+          "location_ar": "دائرة ريّ زراعية واحدة، قرب تبوك، السعودية",
+          "coordinates": "28.37°N, 36.82°E",
+          "lat": 28.37433,
+          "lon": 36.82232,
+          "zoom_span_deg": 0.016,
+          "note_ar": "دائرة ري زراعية واحدة، مؤطّرة بإحكام لتظهر بمفردها — نصف قطرها نحو 1.15كم، مطابق لحجم دوائر الري المعروفة في السعودية",
+          "map_url": "https://www.google.com/maps?q=28.37433,36.82232"
+        },
+        {
+          "image": "images/ha-2.jpg",
+          "location_ar": "بحيرة فوهة كريتر البركانية، أوريغون، الولايات المتحدة",
+          "coordinates": "42.94°N, 122.11°W",
+          "lat": 42.9444,
+          "lon": -122.1075,
+          "zoom_span_deg": 0.06,
+          "note_ar": "بحيرة شبه دائرية تمامًا تُشبه حلقة حرف الهاء",
+          "map_url": "https://www.google.com/maps?q=42.9444,-122.1075"
+        }
+      ]
+    }
+  ]
+}

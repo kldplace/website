@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ساره من الفضاء</title>
+<meta name="description" content="اسم ساره مكتوب بصور الأقمار الصناعية لاندسات لمعالم أرضية تُشبه شكل كل حرف.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="stars" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <span class="header-emoji" aria-hidden="true">&#128044;</span>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <h1 class="hero-name" lang="ar">ساره</h1>
+    <div class="hero-poem" lang="ar">
+      <p>ساره نجمةٌ ما اللّيل بعد وما غرور الشمس؟</p>
+      <p>إذا أغمضت أبصرها وأشرب ضوءها باللمس</p>
+      <p>وإن ضحكت رأيتُ غدي يكفّر عن ذنوب الأمس</p>
+    </div>
+    <div id="setToggle" class="set-toggle"></div>
+  </section>
+
+  <section class="tiles-section" aria-label="بطاقات الحروف">
+    <div id="tiles" class="tiles" dir="rtl">
+      <!-- tiles injected by js/app.js -->
+    </div>
+
+    <div class="actions">
+      <button id="downloadBtn" class="download-btn" type="button" disabled>
+        <span id="downloadLabel">جارِ التحميل…</span>
+      </button>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2>عن هذا المشروع</h2>
+    <p>
+      تعرض هذه الصفحة اسم «ساره» مكتوبًا بصور فضائية لمعالم طبيعية وبشرية على سطح الأرض، التُقطت بواسطة برنامج لاندسات (Landsat) — سلسلة الأقمار الصناعية المشتركة بين وكالة ناسا وهيئة المسح الجغرافي الأمريكية (USGS) التي ترصد الأرض منذ عام 1972.
+    </p>
+    <p class="about-note">
+      مرّر المؤشر فوق كل بطاقة (أو اضغط عليها على الجوال) لرؤية اسم الموقع وإحداثياته. إلى أن تُضاف صور لاندسات حقيقية في images/، تعرض البطاقات معاينة تلقائية حية لإحداثيات كل موقع.
+    </p>
+    <p class="about-credit">
+      المصدر: برنامج لاندسات، بإذن من ناسا وهيئة المسح الجغرافي الأمريكية (USGS).
+    </p>
+  </section>
+</main>
+
+<script src="js/app.js"></script>
+<script src="js/download.js"></script>
+</body>
+</html>
