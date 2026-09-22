@@ -1,5 +1,3 @@
-# ساره من الفضاء — Sara in Landsat
-
 A small static site that spells out the Arabic name **ساره** using satellite
 images of Earth features that resemble each letter. Independent fan project
 inspired by NASA's "Your Name in Landsat" concept — no NASA code, text, or
